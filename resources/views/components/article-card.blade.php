@@ -18,15 +18,8 @@
     <div class="lg:py-4 lg:px-5 py-3 px-4 h-full flex flex-col text-center ">
 
         <div class=" text-center ">
-@if($article->status == "8")
-    @auth()
-                    <a href="/{{app()->getLocale()}}/admin/articles/{{$article->id}}/edit">in editing</a>
-    @endauth
-@endif
-    @auth()
 
-    @endauth
-            <img  src="{{ asset('storage/' . $article->thumbnail) }}" loading="lazy"
+            <img src="https://madeis.com.ua/storage/{{ $article->thumbnail }}" loading="lazy"
                   alt="{{$article->title}}" class=" rounded-xl" style="display: block;
                                                         margin-left: auto;
                                                         margin-right: auto;

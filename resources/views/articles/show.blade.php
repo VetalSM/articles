@@ -62,7 +62,7 @@
                     <div class=" text-center ">
                         <div class=" text-center ">
 
-                            <img src="{{ asset('storage/' . $article->thumbnail) }}" loading="lazy"
+                            <img src="https://madeis.com.ua/storage/{{ $article->thumbnail }}" loading="lazy"
                                  alt="{{$article->title}}" class=" rounded-xl" style="display: block;
                                                 margin-left: auto;
                                                 margin-right: auto;
