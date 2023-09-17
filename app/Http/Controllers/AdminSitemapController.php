@@ -13,7 +13,7 @@ class AdminSitemapController extends Controller
     public function index()
     {
         $sitemapPath = "sitemap.xml";
-        SitemapGenerator::create('https://madeis.com.ua/')
+        SitemapGenerator::create('https://articles.madeis.com.ua/')
             ->shouldCrawl(function (UriInterface $url) {
                 // All pages will be crawled, except the contact page.
                 // Links present on the contact page won't be added to the
