@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="{{App::currentLocale()}}">
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6386457402634674"
-            crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-9969651043683101">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     @if(auth()->id() == 0)
     <!-- Google tag (gtag.js) -->
