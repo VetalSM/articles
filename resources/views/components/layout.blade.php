@@ -5,18 +5,15 @@
             crossorigin="anonymous"></script>
     <meta name="google-adsense-account" content="ca-pub-9969651043683101">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    @if(auth()->id() == 0)
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CY3K5VV4KR"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5QRJ9YT96"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-CY3K5VV4KR');
+
+        gtag('config', 'G-T5QRJ9YT96');
     </script>
-    @endif
     <script>
         var $window = (window)
         window.scroll(0, localStorage.getItem('scrollPosition')|0)
