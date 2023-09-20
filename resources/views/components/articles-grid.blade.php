@@ -21,6 +21,7 @@
 
 @if ($articles->count() >= 0)
     <div class="lg:grid lg:grid-cols-6">
+        
         @foreach ($articles->skip(0) as $article)
             @if($article->status != "8")
             <x-article-card

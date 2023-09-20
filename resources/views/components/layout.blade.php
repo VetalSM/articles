@@ -25,21 +25,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <link rel="alternate" hreflang="ru" href="{{Request::root()}}/ru{{Str::substr(url()->current(), 24 , 1000)}}"  />
-{{--    <link rel="alternate" hreflang="ua" href="{{Request::root()}}/ua{{Str::substr(url()->current(), 24 , 1000)}}"  />--}}
-    <link rel="alternate" hreflang="x-default" href="{{Request::root()}}/ua{{Str::substr(url()->current(), 24 , 1000)}}"  />
-    <meta property="og:image" content="@yield('og:image', "https://madeis.com.ua/images/logoOG.jpg" )"/>
+    <link rel="alternate" hreflang="ru" href="{{Request::root()}}/ru{{Str::substr(url()->current(), 33 , 1000)}}"  />
+{{--    <link rel="alternate" hreflang="ua" href="{{Request::root()}}/ua{{Str::substr(url()->current(), 33 , 1000)}}"  />--}}
+    <link rel="alternate" hreflang="x-default" href="{{Request::root()}}/ua{{Str::substr(url()->current(), 33 , 1000)}}"  />
+    <meta property="og:image" content="@yield('og:image', "https://articles.madeis.com.ua/public/images/logoOG.jpg" )"/>
     <meta property="og:title" content="@yield('og:title', 'Корисні статті від "MadeIS". ')"/>
     <meta property="og:description" content="@yield('og:description', '✅Все про свічковаріння, від А до Я.
 ✅Виготовлення дифузорів та рум спреїв.
 ✅Аромаолії: правила використання.')"/>
-    <meta property="og:page_url" content="@yield('og:page_url', 'https://madeis.com.ua/ua' )"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="public/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon-16x16.png">
-    <link rel ="icon" type = "image/x-icon" href ="public/images/favicon-32x32.png">
-    <link rel="manifest" href="public/images/site.webmanifest">
-    <link rel="mask-icon" href="public/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta property="og:page_url" content="@yield('og:page_url', 'hhttps://articles.madeis.com.ua/' )"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://articles.madeis.com.ua/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://articles.madeis.com.ua/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+    <link rel ="icon" type = "image/x-icon" href ="https://articles.madeis.com.ua/images/favicon-32x32.png" />
+    <link rel="manifest" href="https://articles.madeis.com.ua/images/site.webmanifest" />
+    <link rel="mask-icon" href="https://articles.madeis.com.ua/images/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     @if(App::currentLocale() ==='ua')
