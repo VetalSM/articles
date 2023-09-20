@@ -158,6 +158,19 @@
             </article>
 
             <div class="px-2" > {!! $body !!}</div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9969651043683101"
+     crossorigin="anonymous"></script>
+<!-- 22 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9969651043683101"
+     data-ad-slot="9965196996"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        
             <hr style="height:2px;"/>
             <div><span class="font-semibold">{{__('Пошук за хештегами:')}}</span>
                 @foreach($article->hashtags as $hashtag)

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{App::currentLocale()}}">
 <head>
+    <meta name="yandex-verification" content="f238ab72de4142a3" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9969651043683101"
             crossorigin="anonymous"></script>
     <meta name="google-adsense-account" content="ca-pub-9969651043683101">
