@@ -33,12 +33,12 @@
 ✅Виготовлення дифузорів та рум спреїв.
 ✅Аромаолії: правила використання.')"/>
     <meta property="og:page_url" content="@yield('og:page_url', 'https://madeis.com.ua/ua' )"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link rel ="icon" type = "image/x-icon" href ="/images/favicon-32x32.png">
-    <link rel="manifest" href="/images/site.webmanifest">
-    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon-16x16.png">
+    <link rel ="icon" type = "image/x-icon" href ="public/images/favicon-32x32.png">
+    <link rel="manifest" href="public/images/site.webmanifest">
+    <link rel="mask-icon" href="public/images/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     @if(App::currentLocale() ==='ua')
